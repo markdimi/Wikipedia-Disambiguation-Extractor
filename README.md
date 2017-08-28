@@ -4,9 +4,11 @@ I have build a simple script to crawl Wikipedia and extract all the titles of th
 
 Simply run the disambiguation.py script. 
 Then paste the URL of the Category:Disambiguation pages ([this is the English version](https://en.wikipedia.org/wiki/Category:Disambiguation_pages)) of the language of your choice. 
-Then enter the label of the "next page" button, again in the language of your choice(Hint -- go to the previous URL and scroll down to the bottom, find the button for "next page" and paste the translation of the label in the above language. I.e: "nächste Seite" in DE, "page suivante" in FR, "pagina successiva" in IT, etc.) 
+Then enter the label of the "next page" button, again in the language of your choice.
 
-If you want the list of the English articles, leave the prompt empty.
+Hint -- go to the previous URL and scroll down to the bottom, find the button for "next page" and paste the translation of the label in the above language. I.e: "nächste Seite" in [DE](https://de.wikipedia.org/wiki/Kategorie:Begriffskl%C3%A4rung), "page suivante" in [FR](https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Homonymie), "pagina successiva" in [IT](https://it.wikipedia.org/wiki/Categoria:Pagine_di_disambiguazione), etc. This is done in order to crawl through all the pages containing articles.
+
+If you want the list of the English articles, just press enter, leaving the prompt empty.
 
 The script requires: Python 3, BeautifulSoup 4, urllib and pickle.
 
