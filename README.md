@@ -18,4 +18,4 @@ Afterwards if you want to load the articles as a list, you could use the pickle 
 
 ## What is Disambiguation in Wikipedia
 
-Disambiguation in Wikipedia simply put, is when an article redirects to other articles. This disambiguation article's only purpose is to redirect you.  For more on disambiguation in Wikipedia visit the [Wiki article](https://en.wikipedia.org/wiki/Wikipedia:Disambiguation).
+A disambiguation  article in Wikipedia simply put, is when an article is put together to redirect to other articles ([example](https://en.wikipedia.org/wiki/Mercury)). For more on disambiguation in Wikipedia visit the [official article](https://en.wikipedia.org/wiki/Wikipedia:Disambiguation).
