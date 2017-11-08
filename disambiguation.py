@@ -1,7 +1,10 @@
 from bs4 import BeautifulSoup
-import urllib
 import pickle
 from datetime import datetime
+try:
+    import urllib
+except AttributeError:
+    import urllib.requests
 
 startTime = datetime.now()
 
